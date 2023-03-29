@@ -31,6 +31,10 @@
     <%= form.label :photo, style: "display: block" %>
     <%= form.file_field :photo, readonly: false %>
   </div>
+  <div>
+  <%= form.label :comment, style: "display: block" %>
+  <%= form.text_field :comment, readonly: false %>
+  </div>
 
   <div>
     <%= form.submit %>

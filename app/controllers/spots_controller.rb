@@ -1,5 +1,5 @@
 class SpotsController < ApplicationController
-  before_action :set_spot, only: %i[ show edit update destroy ]
+  before_action :set_spot, only: %i[show edit update destroy]
 
   # GET /spots
   def index
@@ -42,19 +42,20 @@ class SpotsController < ApplicationController
   # DELETE /spots/1
   def destroy
     @spot.destroy
-    redirect_to spots_url, notice: "Spot was successfully destroyed.", status: :see_other
+    redirect_to spots_url,
+                notice: "Spot was successfully destroyed.",
+                status: :see_other
   end
 
   private
 
-    # Use callbacks to share common setup or constraints between actions.
-    def set_spot
-      @spot = Spot.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_spot
+    @spot = Spot.find(params[:id])
+  end
 
-    # Only allow a list of trusted parameters through.
-    def spot_params
-      params.require(:spot).permit(:lat, :lng, :name, :photo)
-    end
-
+  # Only allow a list of trusted parameters through.
+  def spot_params
+    params.require(:spot).permit(:lat, :lng, :name, :photo, :comment)
+  end
 end
