@@ -1,7 +1,28 @@
-# GitHub Codespaces ♥️ Ruby on Rails
+# michishirube(仮)
 
-Welcome to your shiny new Codespace running Rails! We've got everything fired up and running for you to explore Rails.
+写真と呟きを地図上に残すアプリケーションです。
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+## このアプリケーションで実現したいこと
+日常の中でなんとなく気が付く環境の変化ってありませんか？<br><br>
+「昔はこのあたりにトンボがたくさん飛んでいたのに、そういえば最近はいないな・・・」<br><br>
+みたいな。<br><br>
+そういった情報を画像や呟きとともに地図上に残していったら、環境の変化を捉える新しい情報にならないかな～<br>
+というのがこのアプリケーションを作ろうと思ったきっかけです。<br>
+そういうのが小学生の自由研究だったり大学生の卒論のテーマに繋がったらちょっと面白そう。
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+# DEMO
+
+
+
+https://user-images.githubusercontent.com/104329344/233763843-db20a5ab-df72-4bd9-8b50-0d84c419d7c7.mp4
+
+
+
+# Requirement
+
+* geo_scaffold(https://github.com/champierre/geo_scaffold)
+
+
+# License
+
+"michishirube" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
